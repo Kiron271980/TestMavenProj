@@ -18,8 +18,8 @@ public class TestService {
 		return testRepo.MethodRepo();
 	}
 	
-//	public List<Employee> empDetails(){
-//	
-//		return testRepo.employeeList();
-//	}
+	public List<Employee> empDetails(){
+	
+		return testRepo.employeeList();
+	}
 }
