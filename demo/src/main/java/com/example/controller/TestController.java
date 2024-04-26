@@ -22,9 +22,9 @@ public class TestController{
 			//return "welcome to SpringBoot Application";
 	}
 	
-//	@GetMapping("/empDetails")
-//	public List<Employee> getEmpDetails()
-//	{
-//		return testService.empDetails();
-//	}
+	@GetMapping("/empDetails")
+	public List<Employee> getEmpDetails()
+	{
+		return testService.empDetails();
+	}
 }
